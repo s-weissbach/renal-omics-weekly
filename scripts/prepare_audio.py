@@ -33,7 +33,11 @@ def main() -> None:
         shutil.copy2(args.input, args.output)
     else:
         subprocess.run(
-            ["afconvert", str(args.input), str(args.output), "-f", "m4af", "-d", "aac", "-b", "128000"],
+            [
+                "afconvert", str(args.input), str(args.output),
+                "-f", "m4af", "-d", "aac @44100", "-c", "2",
+                "-b", "128000", "-s", "1", "--media-kind", "Podcast",
+            ],
             check=True,
         )
     formatted, seconds = duration(args.output)
@@ -42,4 +46,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
