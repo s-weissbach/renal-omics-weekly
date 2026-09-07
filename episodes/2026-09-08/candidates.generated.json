@@ -1,0 +1,368 @@
+{
+  "window": {
+    "start": "2026-09-01",
+    "end": "2026-09-08"
+  },
+  "generated_at": "2026-09-07T22:52:51.717758+00:00",
+  "candidates": [
+    {
+      "id": "doi:10.1111/apha.70290",
+      "score": 34.3,
+      "title": "Immature Neutrophil Phenotype and Enhanced Myeloperoxidase in Male Patients With Chronic Kidney Disease and Cardiovascular Comorbidity.",
+      "authors": "Vondenhoff S, Antwerpen A, Junho CVC, Martin P, Hourtz S, Zou J, Kurt B, Haas C, Fleig S, Schulte C, Lauxen J, Wessiepe M, Späte-Schulze U, Kramann R, Floege J, Soehnlein O, Jankowski J, Goettsch C, Döring Y, Kahles F, Marx N, Baaten CCFMJ, Noels H.",
+      "date": "2026-09-01",
+      "journal": "",
+      "doi": "10.1111/apha.70290",
+      "pmid": "42613304",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1111/apha.70290",
+      "abstract": "Aim Patients with chronic kidney disease (CKD) have an increased cardiovascular risk. Since neutrophils and neutrophil-borne proteins contribute to cardiovascular disease, we analyzed the neutrophil phenotype in patients with CKD who presented with a spectrum of cardiovascular comorbidities. Methods Blood from two independent cohorts of male patients with moderate to advanced CKD recruited through the cardiology or nephrology unit was analyzed for neutrophils maturation and activation markers using flow cytometry compared to healthy controls. The formation of neutrophil-extracellular traps was assessed using isolated neutrophils. Plasma levels of neutrophil-borne proteins (neutrophil elastase, myeloperoxidase, and S100A8/A9), plasma inflammatory markers and cardiovascular disease characteristics were compared. Results Both cohorts of CKD patients showed reduced neutrophil surface expression of maturation marker CD10 and higher plasma levels of myeloperoxidase compared to controls. No significant differences were observed in neutrophil surface activation markers in either baseline or stimulated conditions, or in the formation of neutrophil extracellular traps ex vivo. Although CKD patients presented with variable degrees of systemic inflammation and cardiovascular comorbidities, the immature neutrophil phenotype (low CD10) was not associated with either inflammatory status (CRP, IL6) or NT-proBNP levels. Conclusion Male cardiorenal patients with moderate to advanced CKD do not show altered neutrophil surface activation markers or ex vivo activation potential per se. Yet, they display a more immature neutrophil phenotype and higher circulating neutrophil-borne myeloperoxidase as observed across a range of systemic inflammation degrees. This could potentially contribute to the overall increased cardiovascular risk in CKD.",
+      "ranking_reasons": [
+        "method novelty: method",
+        "translation: patient, cohort, disease"
+      ]
+    },
+    {
+      "id": "doi:10.1177/08850666261483582",
+      "score": 32.9,
+      "title": "Machine Learning-Based Subtype Classification of Sepsis-Associated Acute Kidney Injury and Differential Responses to Renal Replacement Therapy.",
+      "authors": "Zhang H, Wang S, Zhang T, Wang B, Jiang Z, Guo Z.",
+      "date": "2026-09-03",
+      "journal": "",
+      "doi": "10.1177/08850666261483582",
+      "pmid": "42693505",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1177/08850666261483582",
+      "abstract": "BackgroundSepsis-associated acute kidney injury (SA-AKI) is highly heterogeneous with controversial optimal renal replacement therapy (RRT) strategies. Machine learning enables subphenotype identification, and exploring RRT response differences across SA-AKI subtypes is critical for precision care.MethodsThis retrospective cohort study analyzed adult SA-AKI patients from the Medical Information Mart for Intensive Care IV database. K-means clustering classified SA-AKI subtypes; nine machine learning models were built to predict 28-day mortality, with model performance validated and interpreted via Shapley Additive Explanations. Multivariable logistic regression with interaction terms assessed RRT's heterogeneous treatment effects (HTE) across subtypes. Sensitivity analysis was used to assess the reliability of the research results.Results21359 patients were stratified into 3 AKI subtypes (C1: moderate severity; C2, severe hyperglycemia; C3, mild conditions and high inflammatory responses). C2 had the highest 28-day mortality (30.8%) and RRT utilization (19.2%). Random Forest had a greater performance in training set [area under the curve (AUC) = 0.961], while Light Gradient Boosting Machine (Lightgbm) was better in test set (AUC = 0.814), with Sequential Organ Failure Assessment (SOFA) score as the top predictor. RRT had a negative correlation with 28-day mortality [odds ratio (OR)= 0.810, P = 0.006], with a significant difference only in C1. HTE test for RRT showed no statistical significance ( P = 0.141). Sensitivity analysis results supported the reliability of the research findings.ConclusionSA-AKI has three distinct subtypes with divergent clinical characteristics. Lightgbm effectively predicts SA-AKI prognosis, and RRT may benefit C1 subtype patients. Although there is not enough evidence to prove the HTE of RRT among subgroups, this study provides a phenotypic framework for advancing precision kidney support in SA-AKI.",
+      "ranking_reasons": [
+        "method novelty: method, framework, model",
+        "translation: patient, clinical, cohort"
+      ]
+    },
+    {
+      "id": "doi:10.64898/2026.08.30.748098",
+      "score": 32.2,
+      "title": "Ageas enables time-agnostic cell fate inference from single-cell and spatial multi-omics data",
+      "authors": "Jiang J, Kong A, Yu G.",
+      "date": "2026-09-03",
+      "journal": "",
+      "doi": "10.64898/2026.08.30.748098",
+      "pmid": null,
+      "source": "PPR",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.64898/2026.08.30.748098",
+      "abstract": "Understanding cell fate decisions is fundamental to developmental biology and disease research. However, experimental lineage tracing requires genetic manipulation, which is impractical in many systems, particularly in humans. Computational approaches often rely on time-resolved measurements, which single-cell and spatial omics studies rarely provide. Here, we present Ageas, a time-agnostic transfer learning framework for cell fate inference from single-cell and spatial multi-omics data. Ageas overcomes these limitations by learning fate memory from terminal cell populations and transferring this information to progenitor or intermediate cells, enabling fate bias inference from static molecular snapshots. To enable robust generalization across molecular modalities, Ageas employs a data-adaptive ensemble strategy with automated model selection. In benchmark datasets with lineage-traced single-cell transcriptomic and epigenomic profiles, as well as spatial transcriptomics, Ageas achieves strong performance compared to existing methods. Applying Ageas to a 3D human embryo reveals a spatially organized anterior-posterior gradient of epiblast fate priming, with anterior epiblast cells biased toward ectodermal fates and posterior cells toward primitive streak-derived lineages, accompanied by regionally graded fate-associated regulatory programs. Together, these results establish Ageas as a general framework for decoding cell fate decisions from static molecular snapshots.",
+      "ranking_reasons": [
+        "new preprint",
+        "method novelty: method, framework, model",
+        "translation: human, disease"
+      ]
+    },
+    {
+      "id": "doi:10.3389/fendo.2026.1957734",
+      "score": 31.6,
+      "title": "Disproportionate reporting of euglycaemic and diabetic ketoacidosis with SGLT-2 inhibitors across expanding cardiorenal indications: a cross-database study of FAERS and JADER.",
+      "authors": "Chen J, Wang D, Duan X, Wang J, Zhao Z, Xing X.",
+      "date": "2026-09-03",
+      "journal": "",
+      "doi": "10.3389/fendo.2026.1957734",
+      "pmid": "42694226",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.3389/fendo.2026.1957734",
+      "abstract": "SGLT-2 inhibitors are now used beyond type 2 diabetes (T2DM) in heart failure (HF) and chronic kidney disease (CKD), where glucose is monitored less routinely. Whether their established ketoacidosis signal-particularly euglycaemic diabetic ketoacidosis (euDKA)-is maintained as the indications expand, and whether it reproduces across independent reporting systems, is untested. We analysed the US FAERS (2020Q1-2026Q1) and Japanese JADER using one pipeline. Signals required consensus across four methods (ROR, PRR, IC, EBGM/EB05). Analyses were run overall, within report-level indication strata [T2DM, HF, CKD, off-label type 1 diabetes (T1DM)] and against an active comparator (DPP-4 inhibitors), with two pre-specified negative controls, time-to-onset modelling and sensitivity analyses. The DKA signal met four-method consensus within every indication stratum, including HF and CKD, and was highest in off-label T1DM; it was therefore maintained, not diluted, as indications expanded. Overall RORs were 67.4 (95% CI 65.7-69.2) in FAERS and 112.3 (104.8-120.3) in JADER. SGLT-2 inhibitors accounted for 85.8% (FAERS) and 91.7% (JADER) of all euDKA reports, though euDKA was only 4.1% and 7.8% of SGLT-2 inhibitor reports. Both negative controls were null in both databases. Median time-to-onset was 60 days (Weibull β=0.48, 95% CI 0.46-0.50). Across two independent reporting systems, the SGLT-2 inhibitor ketoacidosis signal was maintained across the expanding cardiorenal indications, with euDKA concentrated within this class and early onset. Ketone-based assessment is warranted when ketoacidosis is suspected, particularly soon after initiation. As a disproportionality analysis, these are hypothesis-generating signals that cannot establish incidence, relative risk, or causality.",
+      "ranking_reasons": [
+        "method novelty: method, model",
+        "translation: disease"
+      ]
+    },
+    {
+      "id": "doi:10.1093/rheumatology/keag374",
+      "score": 30.9,
+      "title": "Kidney-infiltrating proteinase 3-positive granulocytes are abundant in lupus nephritis.",
+      "authors": "Celia AI, Lee CY, Yang X, Li T, Casella K, Cortez A, Alessandri C, Conti F, Shenderov E, Petri M, Skopelja-Gardner S, Rosenberg A, Fava A.",
+      "date": "2026-09-01",
+      "journal": "",
+      "doi": "10.1093/rheumatology/keag374",
+      "pmid": "42467826",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1093/rheumatology/keag374",
+      "abstract": "Objectives Active proliferative LN is associated with elevated urinary neutrophil granule proteins such as PR3, implicating active cellular degranulation in LN. Yet, mature neutrophils are rarely observed in LN biopsies, raising the possibility of an unrecognized cellular source. We aimed to identify and characterize PR3-expressing myeloid cells in LN kidneys using a spatially resolved multi-omics approach. Methods Serial immunohistochemistry (10-plex) and spatial transcriptomics were employed to assess the distribution of PR3+ cells across renal tissue and characterize their cellular phenotype. Results PR3+ cells were abundant in LN kidney biopsies, but with marked inter-patient heterogeneity. These cells were predominantly localized to the tubulointerstitium and showed similar distribution in both proliferative and membranous LN. In contrast, intraglomerular PR3+ cells were enriched in proliferative LN and correlated with the NIH activity index. Phenotype analysis identified four subsets of PR3+ cells, consistent with a monocyte/neutrophil lineage. Most PR3+ cells lacked multilobate nuclei, distinguishing them from mature neutrophils, suggesting that these cells may be overlooked by conventional light microscopy. Conclusions PR3+ myeloid cells are a prominent and heterogeneous population in LN. While intraglomerular PR3+ cells were specific to proliferative LN and correlated with histologic activity, the widespread presence of PR3+ cells in the tubulointerstitium suggests broader involvement in renal inflammation than previously recognized. These findings reveal a potentially overlooked immune cell population that may contribute to renal injury in LN.",
+      "ranking_reasons": [
+        "method novelty: method, lineage",
+        "translation: patient, injury"
+      ]
+    },
+    {
+      "id": "doi:10.1002/fsn3.72340",
+      "score": 30.7,
+      "title": "Dietary Polyphenol Acteoside-Related Molecular Signatures in Clear Cell Renal Cell Carcinoma: Multi-Omics Profiling and Functional Validation of IMPDH1.",
+      "authors": "Chen X, Zhang D, Ji Z, Sun S, Wang J, Shen S, Zhu J.",
+      "date": "2026-09-02",
+      "journal": "",
+      "doi": "10.1002/fsn3.72340",
+      "pmid": "42694600",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1002/fsn3.72340",
+      "abstract": "Clear cell renal cell carcinoma (ccRCC) is characterized by substantial metabolic and molecular heterogeneity, but the disease-relevant programs associated with acteoside, a dietary polyphenol, remain poorly understood. We integrated predicted acteoside targets with bulk, single-cell, and spatial transcriptomic data from ccRCC and combined molecular subtyping with cross-cohort machine-learning analysis. Acteoside-related signatures were preferentially enriched in malignant compartments and increased with tumor grade and stage. Consensus clustering identified two molecular subtypes with distinct biological and clinical features. C1 was associated with immune activation, metabolic activity, and more favorable survival, whereas C2 showed greater genomic instability, reduced renal epithelial differentiation, and poorer outcomes. We further benchmarked multiple machine-learning strategies and established a 10-gene prognostic model that retained predictive performance across independent cohorts, with IMPDH1 emerging as the strongest risk-associated feature. Functional experiments confirmed the biological relevance of IMPDH1: its knockdown suppressed ccRCC cell proliferation, DNA synthesis, colony formation, and migration, whereas overexpression produced the opposite effects. Together, these findings indicate that acteoside-related molecular signatures capture clinically relevant heterogeneity in ccRCC and provide a framework for linking dietary-polyphenol-related molecular space with tumor biology. The identification and functional validation of IMPDH1 further highlight its potential importance in ccRCC progression.",
+      "ranking_reasons": [
+        "method novelty: framework, model",
+        "translation: clinical, cohort, disease"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s00011-026-02346-y",
+      "score": 30.3,
+      "title": "TET2 aggravates podocyte mitotic catastrophe and renal injury in diabetic nephropathy via m5C-dependent downregulation of Wee1 and activation of CDK1-cyclinB1 signaling.",
+      "authors": "Feng J, Dong H, Yang Y, Xie L, Lu W, Guo Y, Kong R.",
+      "date": "2026-09-05",
+      "journal": "",
+      "doi": "10.1007/s00011-026-02346-y",
+      "pmid": "42700265",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1007/s00011-026-02346-y",
+      "abstract": "Podocyte injury and loss in diabetic nephropathy (DN) are driven by mitotic catastrophe (MC), a disastrous cell death caused by aberrant cell cycle re-entry. Ten-eleven translocation 2 (TET2), a 5-methylcytosine (m5C) RNA demethylase, was upregulated in DN and regulated cell proliferation. Here, we explored whether TET2 mediates podocyte MC in DN using Adriamycin (ADM) and high glucose (HG) in vitro, and both STZ-induced and db/db diabetic mouse models in vivo. TET2 was upregulated in human diseased kidneys and injured podocytes, and its expression correlated with disease severity and podocyte loss. EdU staining and flow cytometry verified that ADM/HG facilitated cell proliferation and G2/M phase transition via elevated CDK1-cyclin B1 phosphorylation; meanwhile, ADM/HG increased reactive oxygen species and malondialdehyde levels. TET2 overexpression further enhanced ADM/HG-induced podocyte MC and oxidative stress, whereas TET2 knockdown had the opposite effect. Mechanistically, TET2 reduced Wee1 mRNA stability in an m5C-dependent manner, leading to CDK1-cyclin B1 activation. Rescue experiments confirmed that Wee1 reintroduction rescued TET2-driven MC and oxidative stress, while Wee1 silencing abolished the protection from TET2 knockdown. In vivo, TET2 depletion or Wee1 overexpression alleviated podocyte MC, renal injury, and apoptotic podocytes in both diabetic models. Collectively, TET2 promotes podocyte MC and aggravates DN via TET2-mediated m5C demethylation that suppresses Wee1 expression and activates CDK1-cyclin B1, suggesting that this axis may represent a candidate pathway in the context of DN.",
+      "ranking_reasons": [
+        "method novelty: model",
+        "translation: human, injury, disease"
+      ]
+    },
+    {
+      "id": "doi:10.1002/fsn3.72232",
+      "score": 30.2,
+      "title": "Association Between the Dietary Inflammatory Index and Cardiorenal Anemia Syndrome: Evidence From NHANES and Related-Phenotype Exploration in KNHANES.",
+      "authors": "Lin S, Chen Y, Chen Y, Wu L, Zeng W, Song H, Ding W, Luo X, Ke J, Chen F.",
+      "date": "2026-09-02",
+      "journal": "",
+      "doi": "10.1002/fsn3.72232",
+      "pmid": "42688738",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1002/fsn3.72232",
+      "abstract": "Cardiorenal anemia syndrome (CRAS) links heart failure, chronic kidney disease, and anemia, but the role of diet-related inflammation remains unclear. In the National Health and Nutrition Examination Survey (NHANES), we examined associations of the Dietary Inflammatory Index (DII) with CRAS, dose-response patterns, inflammatory mediation, and machine-learning prediction, alongside analysis of a myocardial infarction-CKD-anemia phenotype in the Korea National Health and Nutrition Examination Survey (KNHANES). This study included 25,388 NHANES and 32,935 KNHANES adults. Survey-weighted regression and restricted cubic splines assessed associations with CRAS in NHANES and the related phenotype in KNHANES. Exploratory mediation evaluated six inflammatory indices. In NHANES participants with heart failure, least absolute shrinkage and selection operator regression selected predictors for 12 internally validated models, with cross-phenotype application in KNHANES and interpretation using Shapley additive explanations (SHAP). Higher DII was associated with greater odds of CRAS in NHANES (odds ratio [OR] = 1.22, 95% CI: 1.07-1.40) and of the related phenotype in KNHANES (OR = 1.19, 95% CI: 1.10-1.29). The association was largely linear in NHANES but nonlinear in KNHANES. In NHANES, all six indices showed positive indirect associations, with estimated proportions ranging from 5.22% to 16.26%. CatBoost showed the highest discrimination in NHANES internal validation (ROC-AUC = 0.741; PR-AUC = 0.556) and in the KNHANES cross-phenotype application (ROC-AUC = 0.753; PR-AUC = 0.698). Higher DII was associated with greater odds of CRAS in NHANES, with directionally consistent findings for the related phenotype in KNHANES. The model may support model-based CRAS identification and showed preliminary applicability to the related phenotype.",
+      "ranking_reasons": [
+        "method novelty: model",
+        "translation: disease"
+      ]
+    },
+    {
+      "id": "doi:10.1016/j.jnutbio.2026.110490",
+      "score": 30.2,
+      "title": "Complanatuside Ameliorates Renal Injury and Fibrosis in Chronic Kidney Disease by Inhibiting Tubular Cell Apoptosis via Activation of KLK1/BDKRB2.",
+      "authors": "Gao J, Tan RZ, Deng K, Peng BH, Liu J, Wang L.",
+      "date": "2026-09-03",
+      "journal": "",
+      "doi": "10.1016/j.jnutbio.2026.110490",
+      "pmid": "42692096",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1016/j.jnutbio.2026.110490",
+      "abstract": "Background Chronic kidney disease (CKD) is characterized by renal fibrosis as a key pathological feature. Total flavonoids extracted from Astragalus complanatus can effectively alleviate renal fibrosis. However, the anti-fibrotic effect and the underlying specific mechanisms of its main active component, Complanatuside (CPT), remain unclear. This study aims to investigate the role of CPT on apoptosis and fibrosis of kidney in CKD, and the underlying mechanism. Methods The protective effects of CPT against CKD were investigated using mouse and cell models of CKD, and its key targets and mechanisms were identified. Results The results showed that CPT ameliorated renal fibrosis in UUO mice and TGF-β1-induced fibrosis in HK2 cells. Notably, our single-cell RNA sequencing analysis revealed that CPT significantly reduced failed-repair tubular cells and inhibited apoptosis, accompanied by marked activation of KLK1 gene expression. We found that CPT binds to KLK1, activates its expression, reduces PTEC apoptosis, and thereby attenuates renal fibrosis. In line with this, in vitro studies showed that overexpressing KLK1 reduced TGF-β1-induced fibrosis and apoptosis, whereas knocking down KLK1 reversed CPT's renal protective effect. Further bioinformatics analysis indicated that KLK1 promotes BDKRB2 expression. Knocking down BDKRB2 exacerbated TGF-β1-induced fibrosis and apoptosis. Additionally, when investigating the relationship between KLK1 and BDKRB2, we found a direct interaction between them. Furthermore, downregulation of BDKRB2 counteracted the inhibitory effects of KLK1 overexpression on cell apoptosis and renal fibrosis. Conclusion This study reveals that CPT binds to KLK1, promotes BDKRB2 expression, thereby reducing PTEC apoptosis and improving renal fibrosis.",
+      "ranking_reasons": [
+        "method novelty: method, model",
+        "translation: injury, fibrosis, disease"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s00592-026-02792-4",
+      "score": 29.1,
+      "title": "Effects of dapagliflozin on proteinuria, glycemic control, and treatment burden in diabetic kidney transplant recipients: a matched cohort study.",
+      "authors": "Ural Z, Derici U.",
+      "date": "2026-09-01",
+      "journal": "",
+      "doi": "10.1007/s00592-026-02792-4",
+      "pmid": "42675203",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1007/s00592-026-02792-4",
+      "abstract": "Aims Diabetes mellitus and persistent proteinuria are major determinants of cardiovascular morbidity, graft dysfunction, and mortality after kidney transplantation. Although sodium-glucose cotransporter-2 (SGLT2) inhibitors have demonstrated substantial cardiorenal benefits in chronic kidney disease, data regarding their use in kidney transplant recipients remain limited. This study aimed to evaluate the clinical effects of dapagliflozin on proteinuria, graft function, glycemic measures, treatment burden, and observed safety events in diabetic kidney transplant recipients. Methods We conducted an exploratory retrospective 1:1 clinically matched cohort study of diabetic kidney transplant recipients followed between 2010 and 2022. Among 282 transplant recipients, 68 had diabetes mellitus. Eighteen patients initiated dapagliflozin 10 mg/day and were included in the all-treated tolerability cohort; three discontinued treatment before completing 3 months because of patient preference unrelated to documented adverse events, leaving 15 recipients who received dapagliflozin for at least 12 months in the efficacy cohort. Fifteen diabetic kidney transplant recipients not receiving SGLT2 inhibitor therapy were selected as 1:1 clinically matched comparable controls according to prespecified matching criteria. Primary outcomes were changes in proteinuria and eGFR. Secondary outcomes included HbA1c, fasting plasma glucose, insulin requirements, antihypertensive medication burden, and observed safety events. Results Thirty diabetic kidney transplant recipients were included in the 12-month efficacy analysis (15 dapagliflozin-treated recipients and 15 1:1 clinically matched comparable controls). Baseline demographic, transplant-related, renal, and glycemic characteristics were broadly comparable between groups. Proteinuria decreased more in the dapagliflozin group than in controls (median change, - 157 [- 310 to - 52] vs. -12 [- 48 to + 25] mg/day; Hodges-Lehmann location-shift estimate, - 171 mg/day; 95% CI, - 310 to - 32; p = 0.009), while eGFR remained stable (between-group difference in ΔeGFR, + 1.6 mL/min/1.73 m²; 95% CI, - 1.8 to + 5.0; p = 0.31). HbA1c decreased from 8.10% (65 mmol/mol) to 7.10% (54 mmol/mol) in the dapagliflozin group, whereas it decreased from 8.18% (66 mmol/mol) to 7.80% (62 mmol/mol) in controls. Greater reductions were also observed in fasting plasma glucose and daily insulin dose. Two urinary tract infections requiring oral antibiotics occurred in the dapagliflozin group and one in controls. No genital infections, diabetic ketoacidosis, acute rejection, graft loss, cardiovascular events, severe infections requiring hospitalization, or deaths were observed. Conclusions In this exploratory 1:1 clinically matched cohort of selected diabetic kidney transplant recipients, dapagliflozin use was associated with reduced proteinuria, improved glycemic measures, and lower treatment burden over 12 months, without observed major graft-related or serious infectious events. However, the retrospective design, small sample size, selected cohort, and treatment-completer efficacy analysis preclude causal inference and definitive safety conclusions. Larger prospective multicenter studies are required before routine implementation in transplant practice can be recommended.",
+      "ranking_reasons": [
+        "method novelty: method",
+        "translation: patient, clinical, cohort"
+      ]
+    },
+    {
+      "id": "doi:10.1111/nep.70269",
+      "score": 28.7,
+      "title": "Epidemiological Transition of Renal Mortality in Chiapas (2000-2024): Autonomy of CKDu and the Rise of Hypertensive Nephropathy-A Time-Series Ecological Study.",
+      "authors": "Moguel FEA, Izaba BS.",
+      "date": "2026-09-01",
+      "journal": "",
+      "doi": "10.1111/nep.70269",
+      "pmid": "42622235",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1111/nep.70269",
+      "abstract": "Aim Chronic kidney disease of non-traditional aetiology (CKDu) has been described in agricultural regions worldwide, yet its contribution to renal mortality in Mexico remains poorly characterised. This study aimed to characterise renal mortality trends in Chiapas and evaluate the autonomy of CKDu relative to metabolic causes. Method(s) An ecological time-series study used DGIS mortality microdata for Chiapas, 2000-2024. Renal deaths (n = 46 301) were classified by ICD-10 into DKD, HN, CKDu, ReNe and OthR. Age strata were 0-14, 15-29, 30-44, 45-59 and ≥ 60 years. Age-standardised mortality rates were calculated, APC estimated using log-linear regression, and sociodemographic contrasts assessed using binomial logistic regression (CKDu vs. DKD). Temporal independence between CKDu and diabetes trends was evaluated using trend-correlation and a binomial test for diagnostic substitution. Results Among individuals aged 15-44 years, CKDu was the leading renal cause of death (44.2%), compared with 27.5% for DKD. CKDu comprised 32.9% of renal deaths in men versus 26.2% in women. The highest mortality growth occurred in men aged 30-44 years (APC 4.01%; p 2 = 0.3547), with no evidence of diagnostic substitution (p = 0.7). Conclusion Renal mortality in Chiapas shows a dual burden in which CKDu exhibits autonomy, consistent with chronic interstitial nephritis in agricultural communities, and supports surveillance and prevention addressing occupational and environmental determinants.",
+      "ranking_reasons": [
+        "method novelty: method",
+        "translation: disease"
+      ]
+    },
+    {
+      "id": "doi:10.1002/cnr2.70673",
+      "score": 28.3,
+      "title": "Multi-Omics Integration Identifies a Five-Gene Metabolic Signature With Experimental Validation in Clear Cell Renal Cell Carcinoma.",
+      "authors": "Peng Y, Qin S, Li X, Wan L, Guan R.",
+      "date": "2026-09-01",
+      "journal": "",
+      "doi": "10.1002/cnr2.70673",
+      "pmid": "42702836",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1002/cnr2.70673",
+      "abstract": "Clear cell renal cell carcinoma (ccRCC) is hallmarked by profound metabolic reprogramming; however, its intricate crosstalk with the tumor immune microenvironment (TIME) and its clinical ramifications remain inadequately elucidated. This study aims to systematically decipher the metabolic-immune interplay in ccRCC through multi-omics integration, with the goal of identifying robust prognostic biomarkers and actionable therapeutic vulnerabilities. This study aims to systematically decipher the metabolic-immune interplay in clear cell renal cell carcinoma (ccRCC) through multi‑omics integration, and to identify robust prognostic biomarkers and actionable therapeutic vulnerabilities that can inform precision risk stratification and individualized treatment strategies. We integrated bulk transcriptomic, genomic, and clinical data from multiple ccRCC cohorts. Differential expression and functional enrichment analyses were performed to characterize metabolic pathway alterations. Mendelian randomization (MR) was employed to infer causal relationships between metabolic disorders and ccRCC risk. A machine learning-based prognostic framework, incorporating SHAP (SHapley Additive exPlanations) for feature interpretability, was constructed and rigorously validated. TIME heterogeneity was dissected using deconvolution algorithms, while drug sensitivity, tumor mutation burden (TMB), and TIDE scores were utilized to assess therapeutic responses and immune evasion. Candidate gene function was evaluated through in vitro gain- and loss-of-function assays, with expression validated via TCGA, HPA, western blot, and qRT-PCR. Enrichment analysis identified coordinated dysregulation in lipid metabolism, energy homeostasis, and hypoxia response pathways. MR analysis confirmed lipid metabolism disorders as a causal risk factor for ccRCC. Our machine-learning model, centered on five core SHAP-identified features (SUCLA2, ACAT1, PC, SUCLG1, and HMGCS2), demonstrated superior predictive accuracy over conventional clinical staging. Immune profiling unveiled dichotomous TIME states: the low-risk group retained active immune surveillance, whereas the high-risk group was enriched with immunosuppressive subsets. Drug sensitivity screening pinpointed LY2109761 and carmustine as high-risk-specific candidate agents. Furthermore, TMB and TIDE analyses stratified high-risk patients displaying genomic instability and immune evasion phenotypes. Functionally, SUCLA2 knockdown significantly enhanced ccRCC cell proliferation and invasion, while its overexpression suppressed these malignant phenotypes, corroborating its tumor-suppressive role. Expression patterns of the hub genes were consistently validated across multi-level datasets and experimental assays. This study establishes a precision oncology framework for ccRCC by functionally linking metabolic biomarkers, immunophenotypes, and stratified therapeutic strategies. Importantly, we identify SUCLA2 as a potential functional tumor suppressor and a promising target for further mechanistic and translational investigation.",
+      "ranking_reasons": [
+        "method novelty: framework, model, integration",
+        "translation: patient, clinical, therapeutic"
+      ]
+    },
+    {
+      "id": "doi:10.4103/sjkdt.sjkdt_107_26",
+      "score": 28.1,
+      "title": "Causes and clinical outcomes of pregnancy-related acute kidney injury: A single-center tertiary hospital study in Abu Dhabi, United Arab Emirates.",
+      "authors": "Al Shamsi H, Al Falahi S, Taha B, Wani S, Farooq F.",
+      "date": "2026-09-01",
+      "journal": "",
+      "doi": "10.4103/sjkdt.sjkdt_107_26",
+      "pmid": "42690105",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.4103/sjkdt.sjkdt_107_26",
+      "abstract": "Background Pregnancy-related acute kidney injury (prAKI) remains a serious complication associated with maternal and fetal morbidity, with significant regional variation. Data from the Middle east are limited. This study aimed to investigate the causes and outcomes of prAKI in a tertiary hospital in Abu Dhabi. Methods We conducted a retrospective cohort study of pregnant women with prAKI at Corniche Hospital, Abu Dhabi, between 2019 and2023. AKI was defined according to the Kidney Disease Improving Global Outcomes (KDIGO) criteria as any of the following ≥ 1.5-fold increase in serum creatinine from the baseline within 7 day or ≥ 0.3mg/dl (≥26.5 μmol/L) increase from the baseline within 48 hours. Baseline serum creatinine was defined as the most recent creatinine value within 1 year prior to the index pregnancy. In cases where baseline creatinine was not available, the lowest serum creatinine value recorded after recovery was used as a surrogate baseline. Complete renal recovery is return to baseline serum creatinine and partial recovery if the creatinine did not return to baseline. Results A total of 167 patients had prAKI over a 5-year study period. The most common cause of prAKI was preeclampsia, accounting for 65 cases (39%), followed by infection 30 cases (18%) of the cases. The majority of cases were classified as mild acute kidney injury (AKI) (75.5%), while moderate and severe AKI accounted for 16% and 8%, respectively.Maternal outcomes were generally favorable, with a low mortality rate (0.6%). Complete renal recovery was observed in 148 patients (88.6%), eight patients progressed to chronic kidney disease, while follow up serum creatinine was not done in 11 patients (6.6%). Only two patients required transient renal replacement therapy. prAKI was recognized and documented by the obstetric team in 60% of the cases. Conclusion In this cohort, prAKI was predominantly mild and associated with favorable maternal outcomes, likely reflecting early detection and management in a tertiary care hospital. However, under-recognition of prAKI remains a concern. Multidisciplinary collaboration between obstetric and nephrology teams is key for prevention, early recognition and management of AKI.",
+      "ranking_reasons": [
+        "method novelty: method",
+        "translation: patient, clinical, cohort"
+      ]
+    },
+    {
+      "id": "doi:10.1080/0886022x.2026.2720961",
+      "score": 28.1,
+      "title": "Kidney biopsy in patients with small kidneys: diagnostic yield and treatment modification in a retrospective cohort study.",
+      "authors": "Wang W, Chen X, Wang R, Yao L, Zhang L.",
+      "date": "2026-09-02",
+      "journal": "",
+      "doi": "10.1080/0886022x.2026.2720961",
+      "pmid": "42687510",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1080/0886022x.2026.2720961",
+      "abstract": "Background Reduced renal size has traditionally been considered a relative contraindication to kidney biopsy because of the perception that advanced chronic damage provides limited diagnostic or therapeutic benefit. However, the actual clinical value of renal biopsy in patients with small kidneys remains insufficiently investigated. Methods We conducted a retrospective single-center study including patients with chronic kidney disease who underwent renal biopsy between June 2020 and December 2025. Patients with renal length ≤9 cm were defined as having small kidneys. Baseline clinical data, pathological diagnoses, treatment modifications following biopsy, and follow-up clinical outcomes were analyzed. Subgroup analyses were performed according to pathological categories. Results Among 1,084 biopsied patients, 76 (7.0%) had small kidneys. Renal biopsy revealed heterogeneous etiologies, with IgA nephropathy (IgAN) accounting for 46.1% of cases. Treatment strategies were modified in 67.1% of patients after renal biopsy. During follow-up, biopsy-guided management was associated with reduced proteinuria and stable renal function. Conclusions In selected patients with small kidneys, renal biopsy was associated with high diagnostic yield and frequent treatment modifications.",
+      "ranking_reasons": [
+        "method novelty: method",
+        "translation: patient, clinical, therapeutic"
+      ]
+    },
+    {
+      "id": "doi:10.1042/cs20261576",
+      "score": 27.5,
+      "title": "IRAP deficiency preserves renal function and attenuates pathology in aged mice.",
+      "authors": "Walton SL, Ansari A, Mirabito Colafella KM, Hilliard Krause LM, Barsha G, Kett MM, Chai SY, Garovic VD, Denton KM.",
+      "date": "2026-09-03",
+      "journal": "",
+      "doi": "10.1042/cs20261576",
+      "pmid": "42690146",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1042/cs20261576",
+      "abstract": "Senescent cell accumulation and fibrosis play a fundamental role in kidney ageing. Our aim was to determine whether the angiotensin IV/insulin-regulated aminopeptidase (IRAP) axis of the renin-angiotensin system contributes to renal function decline, fibrosis and senescent cell accumulation in aged mice. We studied the role of IRAP in kidney aging using IRAP knockout mice, as well as in wildtype mice treated with an IRAP inhibitor. Complementary proximal tubule and collecting duct cell models were used to determine the mechanisms by which IRAP inhibition exerts protective effects. Glomerular filtration rate declined by 25% in wild-type mice between 3-23 months of age, concomitant with marked increases in albumin excretion, glomerulosclerosis, tubulointerstitial fibrosis and accumulation of senescent cells in the proximal tubules of the kidney. IRAP knockout mice were protected against age-related decline in glomerular filtration rate, renal fibrosis and senescence burden compared to age-matched wildtype mice. IRAP inhibition for 4 weeks (HFI-419, 500 ng/kg/min) in 28-month-old wild-type mice similarly prevented age-related decline in glomerular filtration rate and attenuated expression of cellular senescence markers. Using an in vitro model of cultured proximal tubule cells, IRAP inhibition mitigated the pro-senescent effects of oxidative stress. This was associated with shifts in the metabolic phenotype of proximal tubular cells, indicating senoprotective effects of IRAP inhibition may be mediated in part via mitochondrial function. These studies provide evidence that IRAP deficiency is protective against chronic renal cellular senescence, fibrosis and functional decline. Therefore, IRAP inhibition has therapeutic potential to attenuate pathological cardiorenal ageing through senoprotective mechanisms.",
+      "ranking_reasons": [
+        "method novelty: model",
+        "translation: therapeutic, fibrosis"
+      ]
+    },
+    {
+      "id": "doi:10.1111/hdi.70122",
+      "score": 27.0,
+      "title": "Clinical Outcomes of Patients Ineligible for Arteriovenous Vascular Access: A Retrospective Cohort Analysis.",
+      "authors": "Figueiredo R, Diniz H, Ferreira J, Lima JC, Mansilha A, Coentrão L.",
+      "date": "2026-09-06",
+      "journal": "",
+      "doi": "10.1111/hdi.70122",
+      "pmid": "42702583",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1111/hdi.70122",
+      "abstract": "Background A subset of patients with advanced chronic kidney disease (CKD) or kidney replacement therapy becomes ineligible for arteriovenous vascular access creation due to vascular exhaustion or comorbidity-driven contraindications. Outcomes following a negative surgical vascular access recommendation remain poorly characterized and may differ according to kidney replacement therapy status at assessment. Methods We retrospectively studied all patients evaluated by a multidisciplinary vascular access team (January 2022-December 2024) who received a negative surgical recommendation for autologous or prosthetic vascular access construction. Patients were primarily stratified as pre-dialysis CKD G4-5 or already receiving kidney replacement therapy. Reason for ineligibility was analyzed descriptively. Results Among 647 patients evaluated, 40 (6.2%) patients received a negative surgical vascular access recommendation; 20 were pre-dialysis CKD G4-5 and 20 were already receiving kidney replacement therapy. Vascular exhaustion accounted for 23 cases and comorbidity-driven contraindication for 17. Among pre-dialysis patients, 11/20 (55%) initiated kidney replacement therapy after index evaluation: 10 initiated hemodialysis and 1 initiated peritoneal dialysis. Non-planned hemodialysis initiation occurred in 9/10 (90%) patients who started hemodialysis as their first kidney replacement therapy modality, mainly due to acute cardiorenal or coronary syndromes. Among patients already receiving kidney replacement therapy, surgical ineligibility identified persistent absence of durable arteriovenous options: 18/20 (90%) received hemodialysis after index evaluation, with prolonged catheter exposure. Overall, 17/40 (43%) patients died, including 7/20 (35%) pre-dialysis patients and 10/20 (50%) already-kidney replacement therapy patients. Conclusions Surgical vascular access ineligibility defines a high-risk clinical state whose implications differ by kidney replacement therapy status. Earlier identification, structured modality assessment, and timely palliative integration may better align care with prognosis, physiology, and patient goals.",
+      "ranking_reasons": [
+        "method novelty: method, integration",
+        "translation: patient, clinical, cohort"
+      ]
+    },
+    {
+      "id": "doi:10.1111/dom.71258",
+      "score": 26.8,
+      "title": "The Association Between NT-Pro BNP, Nephropathy and Endothelial Dysfunction in Patients With Type 2 Diabetes Mellitus.",
+      "authors": "Ishak N, Eddy Warman N'A, Raja Shariff REF, Chen XW, Abdul Ghani R.",
+      "date": "2026-09-01",
+      "journal": "",
+      "doi": "10.1111/dom.71258",
+      "pmid": "42677690",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1111/dom.71258",
+      "abstract": "Background N-terminal pro-B-type natriuretic peptide (NT-Pro BNP) is an established biomarker of heart failure and has been recommended for cardiovascular risk stratification in type 2 diabetes mellitus (T2DM). However, its relationship with diabetic nephropathy and endothelial dysfunction across varying stages of kidney impairment remains unclear. This study examined the associations of NT-Pro BNP, renal impairment, albuminuria and endothelial dysfunction in patients with T2DM without overt heart failure. Methods A comparative cross-sectional study was conducted among 192 adults with T2DM. Participants were stratified by KDIGO eGFR groups (≥ 90, 60-89, 30-59 mL/min/1.73m 2 ). NT-Pro BNP was considered abnormal at a cut-off of ≥ 125 pg/mL. Albuminuria was categorized using the urinary albumin-to-creatinine ratio (uACR). Endothelial function was assessed by brachial artery flow-mediated dilatation (FMD). Logistic regression analysis was performed to identify independent factors of elevated NT-Pro BNP, with p-values Results NT-Pro BNP levels were significantly higher in the lower eGFR groups compared with normal eGFR (204.3 vs. 96.8 vs. 62.2 pg/mL, p Conclusion In patients with T2DM without overt heart failure, elevated NT-Pro BNP showed a statistically significant association with lower eGFR and higher albuminuria. Moderate to severe albuminuria becomes an independent factor for elevated NT-Pro BNP after adjustment excluding eGFR. The lack of association with endothelial dysfunction suggests that NT-Pro BNP may reflect different pathophysiological pathways. NT-Pro BNP may serve as a useful biomarker for early cardiovascular risk stratification and identification of individuals at risk of pre-heart failure in diabetic kidney disease.",
+      "ranking_reasons": [
+        "method novelty: method",
+        "translation: patient, biomarker, disease"
+      ]
+    },
+    {
+      "id": "doi:10.1016/j.freeradbiomed.2026.08.132",
+      "score": 26.7,
+      "title": "BRD2-Mediated TGR5 destabilization impairs fatty acid oxidation and drives tubular ferroptosis in diabetic kidney injury.",
+      "authors": "Zang H, Zang F, Zhang H, Lei Y, Jiang Y, Li Y, Tang D, Wang D, Xiao F.",
+      "date": "2026-09-03",
+      "journal": "",
+      "doi": "10.1016/j.freeradbiomed.2026.08.132",
+      "pmid": "42685932",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1016/j.freeradbiomed.2026.08.132",
+      "abstract": "Diabetic kidney injury is characterized by metabolic dysregulation, mitochondrial dysfunction, and tubular lipotoxicity; however, the molecular mechanisms integrating these pathological hallmarks remain incompletely elucidated. Here, we identify the epigenetic reader BRD2 as a pivotal regulator of renal tubular fatty acid oxidation (FAO) and ferroptosis. In streptozotocin-induced diabetic mice, BRD2 expression was progressively upregulated specifically in renal tubules, temporally coinciding with the onset and progression of tubular injury. Tubule-specific genetic ablation of Brd2 markedly attenuated diabetic nephropathy, as demonstrated by significant reductions in albuminuria, preservation of creatinine clearance, and amelioration of histopathological abnormalities including tubular atrophy, interstitial fibrosis, and lipid droplet accumulation. Mechanistically, BRD2 deficiency enhanced tubular FAO flux, reduced intracellular lipid accumulation, and suppressed ferroptosis, as evidenced by increased GPX4 and SLC7A11 protein levels, decreased ACSL4 expression, and diminished lipid peroxidation. Notably, BRD2 promoted the proteasome-dependent degradation of the bile acid receptor TGR5 without affecting its transcription, thereby reducing TGR5 protein abundance. Critically, tubule-selective knockdown of Tgr5 fully reversed the renoprotective, metabolic, and anti-ferroptotic benefits conferred by Brd2 deletion, leading to re-emergence of lipid overload and FAO suppression. Conversely, pharmacological activation of TGR5 with the selective agonist INT-777 rescued ferroptosis and restored FAO function in human proximal tubular cells overexpressing BRD2. Collectively, these findings delineate a BRD2-TGR5-FAO signaling axis as a central pathogenic driver of tubular lipotoxicity and ferroptosis in diabetic kidney injury, and position BRD2 inhibition as a mechanistically grounded therapeutic strategy for diabetic kidney disease.",
+      "ranking_reasons": [
+        "translation: human, therapeutic, injury"
+      ]
+    },
+    {
+      "id": "doi:10.1021/acs.analchem.6c04597",
+      "score": 26.5,
+      "title": "Dual-Matrix Platform for Highly Specific Multi-Omics Profiling of Renal Cell Carcinoma.",
+      "authors": "Zhang Y, Zhang M, Gao M, Deng C, Jiang S, Sun N.",
+      "date": "2026-09-01",
+      "journal": "",
+      "doi": "10.1021/acs.analchem.6c04597",
+      "pmid": "42689576",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1021/acs.analchem.6c04597",
+      "abstract": "Multiomics interrogation provides complementary information beyond single-omics approaches for improved disease characterization. To enable such multilayer profiling, we expanded the rapid functionalized mesoporous nanoparticle-coupled laser desorption/ionization mass spectrometry (fMNPLDI-MS) platform by designing two structurally homologous but functionally tailored fMNPs. This design enables efficient acquisition of both serum metabolic and peptide fingerprints from a total of only 2.05 μL of serum, with an LDI MS analysis time of approximately 90 s per sample, while addressing the limitation of single-matrix systems in simultaneously optimizing analytical performance for different biomolecular species. Through statistical analysis and machine learning-based feature selection, an integrated multiomics biomarker panel was established, comprising 5 peptides and 4 metabolites. Notably, this integrated panel outperformed both single-omics panels across all evaluation metrics in the validation set, improving the area under curve from 0.985 to 1.000 and increasing the classification accuracy from 0.947 (metabolites) and 0.930 (peptides) to 0.965, while showing consistent improvements in F1-score, precision, and recall. Collectively, these results demonstrate the robust performance of the dual-matrix design and multiomics integration for renal cell carcinoma classification, with potential relevance for broader applications in complex disease profiling.",
+      "ranking_reasons": [
+        "method novelty: integration",
+        "translation: biomarker, disease"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s13205-026-05041-1",
+      "score": 26.2,
+      "title": "Renoprotective effects of the erucic acid in experimental diabetic nephropathy: antioxidant, anti-inflammatory, and in silico insights.",
+      "authors": "Eid TM, Al-Abbasi FA, Afzal M, Bawadood AS, Albishi HM, Alzarea SI, Chaieb K, Sayyed N, Kazmi I.",
+      "date": "2026-09-01",
+      "journal": "",
+      "doi": "10.1007/s13205-026-05041-1",
+      "pmid": "42688274",
+      "source": "MED",
+      "open_access": false,
+      "stable_url": "https://doi.org/10.1007/s13205-026-05041-1",
+      "abstract": "Diabetic nephropathy is one of the leading microvascular complications of diabetes mellitus and a major cause of chronic kidney disease worldwide. Oxidative stress and chronic inflammation play central roles in its progression. Erucic acid is a naturally occurring monounsaturated omega-9 fatty acid with reported antioxidant and anti-inflammatory properties. We evaluated the renoprotective effects of erucic acid in streptozotocin (STZ)-induced diabetic nephropathy in rats using biochemical and histopathological analyses. Diabetes was induced by a single intraperitoneal injection of STZ (65 mg/kg), followed by oral administration of erucic acid (10 and 20 mg/kg) once daily for 8 weeks. Erucic acid significantly improved glycemic control by reducing blood glucose and HbA1c levels, increasing insulin and adiponectin levels, and decreasing resistin levels. It also ameliorated dyslipidemia by reducing total cholesterol and triglyceride levels and increasing HDL levels. Renal function was significantly improved, as evidenced by reduced serum creatinine, blood urea nitrogen, urinary albumin excretion, and 24-h urine volume, along with increased creatinine clearance and preservation of renal histoarchitecture. Erucic acid restored antioxidant enzyme activities (superoxide dismutase, catalase, and glutathione), reduced malondialdehyde and nitric oxide levels, downregulated pro-inflammatory cytokines (TNF-α, IL-1β, and IL-6), and decreased the renal injury biomarkers KIM-1 and NGAL. These findings demonstrate that erucic acid exerts antioxidant, anti-inflammatory, and renoprotective effects against STZ-induced diabetic nephropathy and may represent a promising therapeutic candidate for diabetic kidney disease. Supplementary information The online version contains supplementary material available at https://doi.org/10.1007/s13205-026-05041-1.",
+      "ranking_reasons": [
+        "translation: therapeutic, biomarker, injury"
+      ]
+    }
+  ]
+}

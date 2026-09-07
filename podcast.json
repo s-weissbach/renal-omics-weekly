@@ -1,0 +1,17 @@
+{
+  "title": "Renal Omics Weekly",
+  "subtitle": "New kidney, cardio-renal, spatial and single-cell research — plus one field-defining classic.",
+  "description": "A weekly, source-grounded briefing for computational biologists working across kidney disease, cardio-renal biology, spatial transcriptomics, single-cell and multi-omics, and relevant AI/ML methods.",
+  "author": "Renal Omics Weekly",
+  "language": "en",
+  "explicit": false,
+  "category": "Science",
+  "subcategory": "Life Sciences",
+  "owner_name": "Renal Omics Weekly",
+  "owner_email": "",
+  "repository": "s-weissbach/renal-omics-weekly",
+  "base_url": "https://s-weissbach.github.io/renal-omics-weekly",
+  "feed_url": "https://s-weissbach.github.io/renal-omics-weekly/feed.xml",
+  "cover_url": "https://s-weissbach.github.io/renal-omics-weekly/cover.png"
+}
+

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Renal Omics Weekly</title>
+    <link>https://s-weissbach.github.io/renal-omics-weekly/</link>
+    <description>A weekly, source-grounded briefing for computational biologists working across kidney disease, cardio-renal biology, spatial transcriptomics, single-cell and multi-omics, and relevant AI/ML methods.</description>
+    <language>en</language>
+    <itunes:author>Renal Omics Weekly</itunes:author>
+    <itunes:summary>A weekly, source-grounded briefing for computational biologists working across kidney disease, cardio-renal biology, spatial transcriptomics, single-cell and multi-omics, and relevant AI/ML methods.</itunes:summary>
+    <itunes:subtitle>New kidney, cardio-renal, spatial and single-cell research — plus one field-defining classic.</itunes:subtitle>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://s-weissbach.github.io/renal-omics-weekly/cover.png" />
+    <itunes:category text="Science">
+      <itunes:category text="Life Sciences" />
+    </itunes:category>
+    <itunes:owner>
+      <itunes:name>Renal Omics Weekly</itunes:name>
+    </itunes:owner>
+    <atom:link href="https://s-weissbach.github.io/renal-omics-weekly/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Sep 2026 22:52:08 +0000</lastBuildDate>
+  </channel>
+</rss>

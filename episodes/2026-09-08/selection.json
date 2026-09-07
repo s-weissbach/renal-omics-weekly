@@ -1,0 +1,79 @@
+{
+  "window": {
+    "start": "2026-09-01",
+    "end": "2026-09-08"
+  },
+  "ranked": [
+    {
+      "rank": 1,
+      "selected": true,
+      "id": "doi:10.1016/j.crmeth.2026.101575",
+      "title": "Image-guided alignment of consecutive multi-modal tissue slides",
+      "doi": "10.1016/j.crmeth.2026.101575",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2667237526002766",
+      "reason": "COAST is a technically strong, immediately useful alignment method for consecutive spatial transcriptomic and metabolomic/lipidomic sections, demonstrated in kidney ischemia-reperfusion injury."
+    },
+    {
+      "rank": 2,
+      "selected": true,
+      "id": "doi:10.1042/cs20261576",
+      "title": "IRAP deficiency preserves renal function and attenuates pathology in aged mice",
+      "doi": "10.1042/cs20261576",
+      "url": "https://doi.org/10.1042/CS20261576",
+      "reason": "A mechanistic and pharmacological study connecting IRAP inhibition to preserved filtration, reduced fibrosis and reduced proximal-tubule senescence in aged kidneys."
+    },
+    {
+      "rank": 3,
+      "selected": true,
+      "id": "doi:10.64898/2026.08.30.748098",
+      "title": "Ageas enables time-agnostic cell fate inference from single-cell and spatial multi-omics data",
+      "doi": "10.64898/2026.08.30.748098",
+      "url": "https://doi.org/10.64898/2026.08.30.748098",
+      "reason": "A transfer-learning framework for fate-bias inference from static single-cell, epigenomic and spatial snapshots, with direct relevance to disease-state trajectory analysis."
+    },
+    {
+      "rank": 4,
+      "selected": true,
+      "id": "doi:10.1111/apha.70290",
+      "title": "Immature Neutrophil Phenotype and Enhanced Myeloperoxidase in Male Patients With Chronic Kidney Disease and Cardiovascular Comorbidity",
+      "doi": "10.1111/apha.70290",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/apha.70290",
+      "reason": "Human cardio-renal translational biology with two CKD cohorts, highlighting a reproducible immature neutrophil/MPO phenotype while also exposing important cohort limitations."
+    },
+    {
+      "rank": 5,
+      "selected": false,
+      "id": "doi:10.1093/bib/bbag469",
+      "title": "Gene-Chronos: parameter-efficient developmental time inference using a pretrained single-cell foundation model",
+      "doi": "10.1093/bib/bbag469",
+      "url": "https://doi.org/10.1093/bib/bbag469",
+      "reason": "A relevant foundation-model method, but less kidney-specific than the selected computational paper."
+    },
+    {
+      "rank": 6,
+      "selected": false,
+      "id": "doi:10.1097/md.0000000000050385",
+      "title": "Renal outcomes associated with sodium-glucose cotransporter 2 inhibitor use in kidney transplant recipients with type 2 or posttransplant diabetes",
+      "doi": "10.1097/md.0000000000050385",
+      "url": "https://doi.org/10.1097/MD.0000000000050385",
+      "reason": "Highly translational real-world evidence, but retrospective and less methodologically distinctive for this week's mix."
+    },
+    {
+      "rank": 7,
+      "selected": false,
+      "id": "doi:10.1021/acs.analchem.6c04597",
+      "title": "Dual-Matrix Platform for Highly Specific Multi-Omics Profiling of Renal Cell Carcinoma",
+      "doi": "10.1021/acs.analchem.6c04597",
+      "url": "https://doi.org/10.1021/acs.analchem.6c04597",
+      "reason": "Technically interesting renal-cancer multi-omics platform, held as an alternate to keep episode scope coherent."
+    }
+  ],
+  "classic": {
+    "id": "doi:10.1126/science.aar2131",
+    "title": "Single-cell transcriptomics of the mouse kidney reveals potential cellular targets of kidney disease",
+    "doi": "10.1126/science.aar2131",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6188645/",
+    "reason": "Today's Classic: the 2018 Susztak-lab kidney atlas that profiled 57,979 cells, linked monogenic disease genes to cell types, and identified collecting-duct transitional states."
+  }
+}
+

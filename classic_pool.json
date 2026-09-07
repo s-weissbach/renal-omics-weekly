@@ -1,0 +1,39 @@
+[
+  {
+    "id": "doi:10.1126/science.aar2131",
+    "title": "Single-cell transcriptomics of the mouse kidney reveals potential cellular targets of kidney disease",
+    "authors": "Park J, Shrestha R, Qiu C, et al.; Susztak K",
+    "year": 2018,
+    "doi": "10.1126/science.aar2131",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6188645/",
+    "why_classic": "A foundational kidney single-cell atlas that connected cell identity to monogenic disease and revealed collecting-duct cell-state transitions."
+  },
+  {
+    "id": "doi:10.1038/nm.3762",
+    "title": "Defective fatty acid oxidation in renal tubular epithelial cells has a key role in kidney fibrosis development",
+    "authors": "Kang HM, Ahn SH, Choi P, et al.; Susztak K",
+    "year": 2015,
+    "doi": "10.1038/nm.3762",
+    "url": "https://doi.org/10.1038/nm.3762",
+    "why_classic": "Established impaired tubular fatty-acid oxidation as a mechanistic driver and therapeutic axis in kidney fibrosis."
+  },
+  {
+    "id": "doi:10.1038/nm.4287",
+    "title": "Transgenic expression of human APOL1 risk variants in podocytes induces kidney disease in mice",
+    "authors": "Beckerman P, Bi-Karchin J, Park ASD, et al.; Susztak K",
+    "year": 2017,
+    "doi": "10.1038/nm.4287",
+    "url": "https://doi.org/10.1038/nm.4287",
+    "why_classic": "A causal in-vivo demonstration linking APOL1 kidney-risk variants to podocyte injury and disease."
+  },
+  {
+    "id": "doi:10.1073/pnas.1920653116",
+    "title": "The single-cell transcriptomic landscape of early human diabetic nephropathy",
+    "authors": "Wilson PC, Wu H, Kirita Y, et al.; Susztak K, Humphreys BD",
+    "year": 2019,
+    "doi": "10.1073/pnas.1920653116",
+    "url": "https://doi.org/10.1073/pnas.1920653116",
+    "why_classic": "An early human single-nucleus view of diabetic kidney disease with cell-type-specific signaling and sex differences."
+  }
+]
+
