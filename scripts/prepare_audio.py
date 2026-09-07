@@ -36,7 +36,7 @@ def main() -> None:
             [
                 "afconvert", str(args.input), str(args.output),
                 "-f", "m4af", "-d", "aac @44100", "-c", "2",
-                "-b", "128000", "-s", "1", "--media-kind", "Podcast",
+                "-b", "128000", "-s", "1",
             ],
             check=True,
         )
