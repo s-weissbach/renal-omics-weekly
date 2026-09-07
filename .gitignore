@@ -1,5 +1,5 @@
 .DS_Store
+._*
 __pycache__/
 downloads/*
 !downloads/.gitkeep
-
